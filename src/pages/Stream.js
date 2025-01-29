@@ -11,7 +11,7 @@ const Stream = () => {
 				<h1 className="video-title">Streaming de clase</h1>
 				<div className="video-frame">
 					<ReactHlsPlayer
-						src='http://34.226.119.152:8080/hls/stream.m3u8'
+						src={`http://${process.env.REACT_APP_OWNCAST_SERVER_URL}/hls/stream.m3u8`}
 						className='video-placeholder'
 						autoPlay={true}>
 					</ReactHlsPlayer>

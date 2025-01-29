@@ -1,0 +1,127 @@
+.absences-page-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f0f7ff, #ffffff);
+  display: flex;
+  flex-direction: column;
+}
+
+.absences-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.add-absence-section {
+  max-width: 1200px;
+  width: 600px;
+  padding: 2rem;
+  margin: auto;
+}
+
+.absence-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-absence-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-absence-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.add-absence-form-element {
+	margin: 2px;
+}
+
+.absence-field {
+	margin: 2px;
+	padding: 0.3rem;
+	font-size: larger;
+}
+
+.delete-absence-button {
+	border: 1px solid transparent;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: .375rem .75rem;
+	border-radius: .25rem;
+	color: #fff;
+  	background-color: #dc3545;
+  	border-color: #dc3545;
+	float: right;
+}
+
+.delete-absence-button:hover {
+	color: #fff;
+	background-color: #c82333;
+	border-color: #bd2130;
+}
+
+.select-student {
+    -webkit-appearance: none;
+    padding: 7px 40px 7px 12px;
+    width: 100%;
+    border: 1px solid #E8EAED;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+    color: #5A667F;
+}
+
+.absence-input {
+    padding: 7px;
+    border: 1px solid #E8EAED;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+    color: #5A667F;
+}
+
+.submit-button-wrapper {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.submit-button {
+	border: 1px solid transparent;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: .375rem .75rem;
+	border-radius: .25rem;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    color: #5A667F;
+    background: white;
+	width: 30%;
+}
+
+.faltas-title {
+	margin: 0;
+	padding: 0;
+    color: #5A667F;
+}

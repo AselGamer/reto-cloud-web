@@ -14,6 +14,7 @@ const Home = () => {
 	};
 
 	const handleTeacherLogin = () => {
+		navigate("/teacher-login");
 		console.log('Teacher login clicked');
 	};
 

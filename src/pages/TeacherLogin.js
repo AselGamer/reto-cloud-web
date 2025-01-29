@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './StudentLogin.css';
+import './TeacherLogin.css';
 import { useNavigate } from 'react-router-dom';
 
-const StudentLogin = () => {
+const TeacherLogin = () => {
 
 	const navigation = useNavigate();
 
@@ -12,17 +12,17 @@ const StudentLogin = () => {
 		e.preventDefault();
 		console.log('Login attempted');
 
-		navigation('/stream');
+		navigation('/absences');
 	};
 
 	return (
-		<div className="student-login-container">
+		<div className="teacher-login-container">
 			<Header />
 
 			<section className="login-section">
 				<div className="login-card">
 					<div className="login-header">
-						<h1 className="login-title">Login Estudiantes</h1>
+						<h1 className="login-title">Login Profesores</h1>
 						<p className="login-subtitle">Introduce tus credenciales</p>
 					</div>
 
@@ -67,4 +67,4 @@ const StudentLogin = () => {
 	);
 };
 
-export default StudentLogin;
+export default TeacherLogin;
