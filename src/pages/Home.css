@@ -1,0 +1,99 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f0f7ff, #ffffff);
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.title-highlight {
+  color: #2563eb;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.login-card {
+  width: 280px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e6f0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .login-container {
+    gap: 1rem;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 280px;
+  }
+}
